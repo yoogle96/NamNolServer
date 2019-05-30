@@ -140,7 +140,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Heroku: Update database configuration from $DATABASE_URL.
 import dj_database_url
-mysql://USER:PASSWORD@HOST:PORT/NAME
 DATABASES['default'] = dj_database_url.config(default='mysql://test:password@18.221.124.67:9876/NamNol')
 # db_from_env = dj_database_url.config(conn_max_age=500)
 # DATABASES['default'].update(db_from_env)

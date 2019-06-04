@@ -1,4 +1,5 @@
 asn1crypto==0.24.0
+beautifulsoup4==4.7.1
 certifi==2019.3.9
 cffi==1.12.3
 chardet==3.0.4
@@ -6,6 +7,7 @@ cryptography==2.6.1
 defusedxml==0.6.0
 dj-database-url==0.5.0
 Django==2.1.8
+django-ajax-selects==1.7.1
 django-allauth==0.39.1
 django-rest-auth==0.9.5
 djangorestframework==3.9.3
@@ -20,6 +22,8 @@ python3-openid==3.1.0
 pytz==2019.1
 requests==2.21.0
 requests-oauthlib==1.2.0
+selenium==3.141.0
 six==1.12.0
+soupsieve==1.9.1
 urllib3==1.24.3
 whitenoise==4.1.2

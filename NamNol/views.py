@@ -17,7 +17,7 @@ class PostViewSet(viewsets.ModelViewSet):
 
 def notice(request):
     chrome_options = webdriver.ChromeOptions()
-    chrome_options.binary_location = CHROME_DRIVER_PATH
+    # chrome_options.binary_location = CHROME_DRIVER_PATH
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--no-sandbox')
     driver = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH, chrome_options=chrome_options)

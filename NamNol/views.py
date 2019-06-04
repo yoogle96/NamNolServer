@@ -20,7 +20,7 @@ def notice(request):
     # chrome_options.binary_location = CHROME_DRIVER_PATH
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--no-sandbox')
-    driver = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH, chrome_options=chrome_options)
+    driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
     driver.implicitly_wait(3)
     driver.get('https://nsu.ac.kr/?m1=page%25&menu_id=186%25')
     # By.CSS_SELECTOR로 tr 태그의 notice 클래스가 로딩될때까지 기다린다

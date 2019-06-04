@@ -16,7 +16,7 @@ class PostViewSet(viewsets.ModelViewSet):
     serializer_class = PostSerializer
 
 def notice(request):
-    chrome_options = ChromeOptions()
+    chrome_options = webdriver.ChromeOptions()
     chrome_options.binary_location = GOOGLE_CHROME_BIN
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--no-sandbox')

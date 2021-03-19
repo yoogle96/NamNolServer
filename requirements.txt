@@ -10,7 +10,7 @@ Django==2.1.8
 django-ajax-selects==1.7.1
 django-allauth==0.39.1
 django-rest-auth==0.9.5
-djangorestframework==3.9.3
+djangorestframework==3.11.2
 gunicorn==19.9.0
 idna==2.8
 mysqlclient==1.4.2.post1
